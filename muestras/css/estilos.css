@@ -1,0 +1,83 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Lobster&family=Righteous&family=Roboto&family=Sansita+Swashed:wght@300&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Righteous&family=Roboto&family=Sansita+Swashed:wght@300&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Great+Vibes&family=Lobster&family=Nanum+Myeongjo&family=Righteous&family=Roboto&family=Sansita+Swashed:wght@300&family=Satisfy&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+
+}
+.contenedor{
+	width: 100%;
+	min-height: 100vh;
+	background-image: url(../imagenes/OG9KIK0.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;	
+	display: flex;
+	justify-content: space-between;
+
+}
+.logo{
+	margin-left: 40px;
+	margin-top: 40px;
+	height: 60px;
+	padding: 20px;
+
+}
+.texto {
+width:40%;
+border: solid 1px #D5D3DB ;
+padding: 20px;
+background-color: rgba(225,225,255,0.5);
+position: relative;
+}
+.texto h1{
+	margin: 20px;
+	color: #000;
+	text-align: center;
+	margin-top: 120px;
+	font-family: 'Sansita Swashed', cursive;
+	font-size: 45px;
+}
+
+.texto h2{
+font-family: 'Cinzel', serif;
+font-family: 'Lobster', cursive;
+font-family: 'Righteous', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Sansita Swashed', cursive;
+font-family: 'Satisfy', cursive;
+margin: 20px;
+}
+.texto p{
+	font-family: 'Lobster', cursive;
+font-family: 'Righteous', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Sansita Swashed', cursive;
+font-family: 'Satisfy', cursive;
+margin: 20px;
+text-align: justify;
+font-size: 25px;
+position: absolute;
+left: 30px;
+}
+.texto a{
+	font-family: 'Cinzel', serif;
+font-family: 'Great Vibes', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Nanum Myeongjo', serif;
+font-family: 'Righteous', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Sansita Swashed', cursive;
+font-family: 'Satisfy', cursive;
+text-decoration: none;
+color: #000;
+border: solid 2px #87838B ;
+padding: 20px;
+position: absolute;
+text-align: center;
+left: 150px;
+bottom: 40px;
+font-size: 25px;
+}
